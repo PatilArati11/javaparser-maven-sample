@@ -57,4 +57,11 @@
             </plugin>
         </plugins>
     </build>
+         <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>inmumvsl-releases</name>
+        <url>http://10.246.89.224:8081/artifactory/this-app-libs-release-local</url>
+    </repository>
+</distributionManagement>
 </project>
